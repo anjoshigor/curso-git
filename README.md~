@@ -11,9 +11,3 @@ git diff --cached //mostra a diferenca entre a stage area e a versao atual
 git branch nome-da-branch //cria um novo ramo paralelo com o nome nome-da-branch
 
 git branch //lista todas as branches * é o ramo que você está
-
-git reset --soft HEAD~1 //apaga 1 commit anterior, mas mantem o arquivo na estage area
-
-git reset --hard HEAD~1 //apaga 1 commit anterior, e apaga o arquivo
-
-git checkout nome-da-branch //acessa a branch
